@@ -1,0 +1,24 @@
+{
+  "name": "job-scraper-beta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashtilawat23/job-scraper-beta.git"
+  },
+  "author": "Ashalesh Tilawat <ashtilawat23@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashtilawat23/job-scraper-beta/issues"
+  },
+  "homepage": "https://github.com/ashtilawat23/job-scraper-beta#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "esm": "^3.2.25"
+  }
+}
