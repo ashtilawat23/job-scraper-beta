@@ -1,4 +1,4 @@
-import axios from "axios"
+const axios = require('axios')
 
 const getRemoteOkJobs = () => {
     axios.get('https://remoteok.io/api')
